@@ -11,7 +11,7 @@ import { block } from 'react-native-reanimated';
 
 const routes = () => (
     <Router hideNavBar={true} >
-        <Stack key='root' navigationBarStyle={{ backgroundColor: '#115e54' }} titleStyle={{ color: '#fff' }}>
+        <Stack hideNavBar={true} key='root' navigationBarStyle={{ backgroundColor: '#115e54' }} titleStyle={{ color: '#fff' }}>
             <Scene key='FormLogin' component={FormLogin} title="Login" hideNavBar={block}  initial />
             <Scene key='FormCadastro' component={FormCadastro} title="Cadastro" hideNavBar={true} />
             <Scene key='boasVindas' component={BoasVindas} title="Bem-Vindo" hideNavBar={true}   />
